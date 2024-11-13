@@ -4,4 +4,19 @@
     --accent-font: "PressStart2P", monospace;
     --main-font-weight-card: 400;
     --heading-font-weight-card: 700;
+
+     --background-image: 
+     repeating-linear-gradient(
+       90deg,
+       #d3d3d3 0 2px, transparent 2px 4px
+     ),
+     repeating-linear-gradient(
+       0deg,
+       #d3d3d3 0 2px, transparent 2px 4px
+     ),
+     linear-gradient(
+       to bottom,
+       #e7e7e7 0.01%, #1a1a1a 100%
+     );
+     
 }
