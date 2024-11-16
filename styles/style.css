@@ -89,12 +89,27 @@
   margin: 0;
 }
 
-.card__image-text {
+.card__image-label {
   position: absolute;
+  inset-inline-end: 25px;
+  inset-block-start: 25px;
   z-index: 2;
   opacity: 0.6;
   color: var(--accent-color);
   font-family: var(--accent-font), sans-serif;
+  text-shadow: 
+    1px 0 0 var(--background-color-main),
+    -1px 0 0 var(--background-color-main),
+    0 1px 0 var(--background-color-main),
+    0 -1px 0 var(--background-color-main);
+  mix-blend-mode: hard-light;
+}
+
+@supports (-webkit-text-stroke: 1px var(--background-color-main)) {
+  .card__image-label {
+    text-shadow: none;
+    -webkit-text-stroke: 1px var(--background-color-main);
+  }
 }
 
 .card__image {
