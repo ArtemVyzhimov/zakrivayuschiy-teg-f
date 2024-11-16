@@ -8,6 +8,7 @@
 :root.theme-light {
   --background-color-main: #fff;
   --accent-color:  #000;
+  --button-text-color: #fff;
 
   /* Фон для светлой темы */  
   --background-image: 
@@ -29,6 +30,7 @@
 :root.theme-dark {
   --background-color-main: #000;
   --accent-color: #00cc14;
+  --button-text-color: #00cc14;
 
   /* Фон для тёмной темы */
   --background-image: 
@@ -51,6 +53,7 @@
   :root {
     --background-color-main: #000;
     --accent-color: #00cc14;
+    --button-text-color: #00cc14;
 
     /* Фон для тёмной темы */
     --background-image: 
@@ -73,6 +76,7 @@
   :root {
     --background-color-main: #fff;
     --accent-color: #000;
+    --button-text-color: #fff;
 
     /* Фон для светлой темы */  
     --background-image: 
