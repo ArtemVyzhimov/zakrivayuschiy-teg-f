@@ -110,7 +110,6 @@
 .theme-menu__button:disabled::before {
   content: '▶';
   position: absolute;
-  color: var(--theme-light-accent-transparent);
   animation: moving-arrow 0.5s infinite ease-in-out reverse;
   inset-inline-start: -20px;
 }
