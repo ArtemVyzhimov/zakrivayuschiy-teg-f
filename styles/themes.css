@@ -10,7 +10,8 @@
   --accent-color:  #000;
   --button-text-color: #fff;
 
-  /* Фон для светлой темы */  
+  /* Фон для светлой темы */ 
+
   --background-image: 
      repeating-linear-gradient(
        90deg,
@@ -24,7 +25,6 @@
        to bottom,
        #e7e7e7 0.01%, #1a1a1a 100%
      );
-
 }
 
 :root.theme-dark {
@@ -46,7 +46,6 @@
     to bottom,
     #007f0c 0%, #004306 100%
   );
-    
 }
 
 @media (prefers-color-scheme: dark) {
@@ -56,6 +55,7 @@
     --button-text-color: #00cc14;
 
     /* Фон для тёмной темы */
+
     --background-image: 
       repeating-linear-gradient(
         90deg,
@@ -79,6 +79,7 @@
     --button-text-color: #fff;
 
     /* Фон для светлой темы */  
+
     --background-image: 
       repeating-linear-gradient(
         90deg,
