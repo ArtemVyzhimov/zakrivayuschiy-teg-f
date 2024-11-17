@@ -298,6 +298,46 @@
   font-size: 14px;
 }
 
+/* 1. Сила Света */
+.force-light {
+  filter: brightness(120%) contrast(150%) sepia(50%);
+}
+
+/* 2. Тёмная сторона */
+.dark-side {
+  filter: contrast(200%) hue-rotate(180deg) invert(1);
+}
+
+/* 3. Энергетическое поле */
+.energy-shield {
+  filter: blur(5px) brightness(110%) saturate(150%);
+}
+
+/* 4. Гиперпространство */
+.hyperdrive {
+  filter: blur(8px) contrast(120%) saturate(200%);
+}
+
+/* 5. Древний храм */
+.ancient-temple {
+  filter: grayscale(100%) sepia(60%) brightness(80%);
+}
+
+/* 6. Лазерный меч */
+.lightsaber {
+  filter: hue-rotate(100deg) brightness(120%) saturate(200%);
+}
+
+/* 7. Космическое сражение */
+.space-battle {
+  filter: contrast(180%) saturate(250%) brightness(90%);
+}
+
+/* 8. Разрушенная планета */
+.destroyed-planet {
+  filter: sepia(80%) contrast(140%) blur(4px);
+}
+
 @media (width < 380px) {
   .header__logo {
     margin-block-start: 120px;
