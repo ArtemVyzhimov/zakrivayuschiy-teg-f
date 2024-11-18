@@ -10,6 +10,12 @@
         fill: #00cc14;
         }
     }
+
+    @media (prefers-color-scheme: light) {
+        path {
+        fill: #000;
+        }
+    }
 </style>
 <path d="M128 128H160V160H128V128Z" />
 <path d="M96 128V96H128V128H96Z" />
