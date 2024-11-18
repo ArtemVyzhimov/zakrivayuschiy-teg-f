@@ -23,15 +23,19 @@
   font-variation-settings: var(--main-font-weight-card);
   background-image: var(--background-image);
   background-size: cover;
-  /* background-attachment: scroll; */
+  background-attachment: fixed;
 }
 
 .card {
   margin-inline: auto;
   border: 2px solid var(--accent-color);
   background: var(--background-color-main);
-  max-inline-size: 696px;
-  margin-block: 100px 0px;
+  max-inline-size: 700px;
+  margin-block: 50px 0px;
+}
+
+.card:first-child {
+  margin-block-start: 100px;
 }
 
 .header {
@@ -57,7 +61,7 @@
 
 .theme-menu__list {
   display: grid;
-  gap: 14px;
+  gap: 8px;
   padding-inline-start: 20px;
 }
 
@@ -66,6 +70,7 @@
   text-transform: uppercase;
   background: transparent;
   cursor: pointer;
+  line-height: 1;
   font-size: 14px;
   line-height: 14px;
   appearance: none;
@@ -115,9 +120,14 @@
   font-variation-settings: var(--heading-font-weight-card);
   line-height: normal;
   border-block-end: 2px solid var(--accent-color);
+  padding-inline-start: 10px;
+  padding-block-start: 3px;
+  padding-block-end: 3px;
 }
 
 .card__image-container {
+  inline-size: 100%;
+  block-size: 100%;
   position: relative;
   border-bottom: var(--border-width) solid var(--accent-clr);
   margin: 0;
