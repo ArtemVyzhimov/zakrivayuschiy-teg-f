@@ -66,6 +66,11 @@
     fill: var(--like-red);
 }
 
+.like-icon .contour {
+  fill: var(--accent-color);
+  transition: fill 0.1s linear;
+}
+
 .like-icon.is-liked .contour {
     transition: fill 0.3s linear 0.06s;
     fill: var(--like-red);
