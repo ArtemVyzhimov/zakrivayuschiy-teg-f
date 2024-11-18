@@ -23,7 +23,7 @@
   font-variation-settings: var(--main-font-weight-card);
   background-image: var(--background-image);
   background-size: cover;
-  background-attachment: scroll;
+  /* background-attachment: scroll; */
 }
 
 .card {
@@ -173,15 +173,35 @@
   align-items: stretch;
   padding: 0 25px 25px 25px;
   border-bottom: 0px solid var(--accent-color);
-  gap: 0;
+  gap: 5px;
 }
 
-.card__icon-button {
+/* .card__icon-button {
   display: grid;
   border: 2px solid transparent;
   background: transparent;
   cursor: pointer;
   padding: 0;
+  transition: border-color 0.3s ease;
+} */
+
+.card__icon-button {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid transparent;
+  background: none;
+  cursor: pointer;
+  padding: 0;
+  transition: border-color 0.3s ease;
+}
+
+.card__icon-button:focus {
+  outline: none;
+}
+
+.card__icon-button:focus-visible {
+  border-color: var(--accent-color);
 }
 
 .card__like-button {
