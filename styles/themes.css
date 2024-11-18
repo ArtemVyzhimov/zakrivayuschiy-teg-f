@@ -10,8 +10,6 @@
   --accent-color:  #000;
   --button-text-color: #fff;
 
-  /* Фон для светлой темы */ 
-
   --background-image: 
      repeating-linear-gradient(
        90deg,
@@ -31,11 +29,9 @@
   --background-color-main: #000;
   --accent-color: #00cc14;
   --button-text-color: #00cc14;
-
   --main-font-weight-card: 400;
   --heading-font-weight-card: 785;
 
-  /* Фон для тёмной темы */
   --background-image: 
   repeating-linear-gradient(
     90deg,
@@ -57,7 +53,6 @@
     --accent-color: #00cc14;
     --button-text-color: #00cc14;
 
-    /* Фон для тёмной темы */
 
     --background-image: 
       repeating-linear-gradient(
@@ -71,30 +66,6 @@
       linear-gradient(
         to bottom,
         #007f0c 0%, #004306 100%
-      );
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --background-color-main: #fff;
-    --accent-color: #000;
-    --button-text-color: #fff;
-
-    /* Фон для светлой темы */  
-
-    --background-image: 
-      repeating-linear-gradient(
-        90deg,
-        #d3d3d3 0 2px, transparent 2px 4px
-      ),
-      repeating-linear-gradient(
-        0deg,
-        #d3d3d3 0 2px, transparent 2px 4px
-      ),
-      linear-gradient(
-        to bottom,
-        #e7e7e7 0.01%, #1a1a1a 100%
       );
   }
 }
