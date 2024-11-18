@@ -112,6 +112,7 @@
 
 .card__title {
   font-size: 18px;
+  font-variation-settings: var(--heading-font-weight-card);
   line-height: normal;
   border-block-end: 2px solid var(--accent-color);
 }
@@ -161,6 +162,7 @@
   display: grid;
   gap: 27px;
   font-size: 18px;
+  font-variation-settings: var(--main-font-weight-card);
   line-height: calc(21 / 18);
   padding: 25px 25px;
 }

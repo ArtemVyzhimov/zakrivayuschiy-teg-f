@@ -32,6 +32,9 @@
   --accent-color: #00cc14;
   --button-text-color: #00cc14;
 
+  --main-font-weight-card: 400;
+  --heading-font-weight-card: 785;
+
   /* Фон для тёмной темы */
   --background-image: 
   repeating-linear-gradient(
