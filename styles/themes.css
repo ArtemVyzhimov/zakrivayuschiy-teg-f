@@ -9,6 +9,7 @@
   --background-color-main: #fff;
   --accent-color:  #000;
   --button-text-color: #fff;
+  --heading-font-weight-card: 700;
 
   --background-image: 
      repeating-linear-gradient(
@@ -29,7 +30,6 @@
   --background-color-main: #000;
   --accent-color: #00cc14;
   --button-text-color: #00cc14;
-  --main-font-weight-card: 400;
   --heading-font-weight-card: 785;
 
   --background-image: 
@@ -52,6 +52,7 @@
     --background-color-main: #000;
     --accent-color: #00cc14;
     --button-text-color: #00cc14;
+    --heading-font-weight-card: 785;
 
 
     --background-image: 
